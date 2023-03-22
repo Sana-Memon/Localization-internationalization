@@ -19,6 +19,8 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       translations: Languages(),
+      locale: Locale('ur', 'PK'),
+      fallbackLocale: Locale('en', 'US'),
       home: Home(),
     );
   }
